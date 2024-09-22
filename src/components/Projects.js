@@ -21,7 +21,8 @@ function Projects({ ProjectRef }) {
             title: "Portfolio Website (Shivam Portfolio)",
             Dec: "This project is a portfolio website created using React for building the UI components and Tailwind CSS for styling.",
             Tech: <>&nbsp;<FaReact /> React, &nbsp;&nbsp;<RiTailwindCssFill /> Tailwind</>,
-            view: "https://github.com/shivam1413",
+            live: "https://shivam1413.github.io/PORTFOLIO/",
+            view: "https://github.com/shivam1413/PORTFOLIO",
         },
         {
             id: 2,

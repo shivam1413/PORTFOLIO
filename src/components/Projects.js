@@ -12,6 +12,7 @@ import Netflix from '../assets/netflix.png'
 import Airbnb from '../assets/airbnb.png'
 import Simon from '../assets/simongame.png'
 import Amazon from '../assets/amazon.png'
+import Recommender from '../assets/book recommender.png'
 
 function Projects({ ProjectRef }) {
     const cardItems = [
@@ -21,7 +22,7 @@ function Projects({ ProjectRef }) {
             title: "Portfolio Website (Shivam Portfolio)",
             Dec: "This project is a portfolio website created using React for building the UI components and Tailwind CSS for styling.",
             Tech: <>&nbsp;<FaReact /> React, &nbsp;&nbsp;<RiTailwindCssFill /> Tailwind</>,
-            live: "https://shivam1413.github.io/PORTFOLIO/",
+            live: "https://portfolio-umber-tau-22.vercel.app/",
             view: "https://github.com/shivam1413/PORTFOLIO",
         },
         {
@@ -30,7 +31,7 @@ function Projects({ ProjectRef }) {
             title: "Amazon Web UI Clone",
             Dec: "Created a responsive Amazon website UI clone using HTML and CSS, leveraging Flexbox and media queries to ensure compatibility across devices.",
             Tech: <>&nbsp;<FaReact /> HTML, &nbsp;&nbsp;<FaCss3Alt /> CSS</>,
-            live: "https://shivam1413.github.io/AMAZONWEB_UI_CLONE/",
+            live: "https://amazonweb-ui-clone.vercel.app/",
             view: "https://github.com/shivam1413/AMAZONWEB_UI_CLONE",
             
         },
@@ -40,7 +41,7 @@ function Projects({ ProjectRef }) {
             title: "Netflix Web UI Clone",
             Dec: "This project is a responsive clone of the Netflix Website, developed using Flexbox, Media Queries, and Grid for seamless adaptability across devices.",
             Tech: <>&nbsp;<FaHtml5 />HTML5, &nbsp;&nbsp;<FaCss3Alt />CSS</>,
-            live: "https://shivam1413.github.io/NETFLIXWEB_UI_CLONE//",
+            live: "https://netflixweb-ui-clone-git-main-shivam1413s-projects.vercel.app/",
             view: "https://github.com/shivam1413/NETFLIXWEB_UI_CLONE",
             
         },
@@ -71,10 +72,21 @@ function Projects({ ProjectRef }) {
             title: "Simon Says Game",
             Dec: "The game generates a random sequence of colors. Players must repeat the sequence correctly, with each round adding a new color to the sequence.",
             Tech: <>&nbsp;<FaHtml5 />HTML5, &nbsp;&nbsp;<FaCss3Alt />CSS3, &nbsp;&nbsp;<IoLogoJavascript />JavaScript</>,
-            live:"https://shivam1413.github.io/Simon-Says-Game/",
+            live:"https://simon-says-game-theta.vercel.app/",
             view: "https://github.com/shivam1413/Simon-Says-Game",
             
         },
+        {
+            id: 7,
+            img: Recommender,
+            title: "Book-Recommender-System",
+            Dec: "Developed a personalized book recommendation system with Python and Flask, utilizing collaborative and content-based filtering for tailored suggestions.",
+            Tech: <>&nbsp;<FaHtml5 />HTML5, &nbsp;&nbsp;<FaCss3Alt />CSS3, ML, Pandas, NumPy, Flask/Django, Scikit-learn</>,
+            live:"https://book-recommender-system-kkl7.onrender.com/",
+            view: "https://github.com/shivam1413/Book-Recommender-System",
+            
+        },
+        
         
     
         // Add more card items if needed

@@ -13,6 +13,8 @@ import Airbnb from '../assets/airbnb.png'
 import Simon from '../assets/simongame.png'
 import Amazon from '../assets/amazon.png'
 import Recommender from '../assets/book recommender.png'
+import VCall from '../assets/Apna Video Call.png'
+import Weather_App from '../assets/Weather App.png'
 
 function Projects({ ProjectRef }) {
     const cardItems = [
@@ -84,6 +86,26 @@ function Projects({ ProjectRef }) {
             Tech: <>&nbsp;<FaHtml5 />HTML5, &nbsp;&nbsp;<FaCss3Alt />CSS3, ML, Pandas, NumPy, Flask/Django, Scikit-learn</>,
             live:"https://book-recommender-system-kkl7.onrender.com/",
             view: "https://github.com/shivam1413/Book-Recommender-System",
+            
+        },
+        {
+            id: 8,
+            img: VCall,
+            title: "Apna Video Call Website",
+            Dec: "Built a real-time video calling app using MERN stack and Material UI, with user authentication via bcrypt and token generation with crypto. Added real-time chat, http-status for API responses, and cors for secure cross-origin support.",
+            Tech: <>MERN Stack</>,
+            live:"https://apna-video-call-frontend-b7su.onrender.com/",
+            view: "https://github.com/shivam1413/Apna-Video-Call",
+            
+        },
+        {
+            id: 9,
+            img: Weather_App,
+            title: "Weather App",
+            Dec: "Developed a weather app using React and integrated OpenWeather API to display real-time weather data, including temperature and conditions. Enhanced user experience with dynamic image changes based on weather conditions.",
+            Tech: <>React, Material UI </>,
+            live:"",
+            view: "https://github.com/shivam1413/Weather-Web",
             
         },
         
